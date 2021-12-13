@@ -4,6 +4,9 @@
 ### Library Source: 
 File, FileNotFoundException, Scanner, Vector
 
+### Declaration:
+All work are done by myself, no copy.
+
 ## Problem Solving:
 This program is that in a given varaibles and a given orders (in this program has only 2 or 3 orders), determine the a given variable pattern with or possible values are statistically significant association pattern or not. The purpose of this is to find the associate between several items.
 
