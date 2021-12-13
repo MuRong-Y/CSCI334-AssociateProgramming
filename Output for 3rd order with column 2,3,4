@@ -1,0 +1,115 @@
+Each column (8, 2, 3, 4, 3)
+---------------------------------------
+1	0	0	0	0	2	
+2	0	0	1	0	2	
+3	1	0	2	0	40	
+4	1	1	3	0	2	
+5	1	2	0	0	2	
+6	0	2	3	0	2	
+7	0	2	1	1	100	
+8	0	2	1	2	100	
+==========================================
+You want to know 2 order or 3 order association pattern: 3
+Which columns you want to check?   (columns from 1 to 5)
+1st column you want: 2
+2nd column you want: 3
+3rd column you want: 4
+==========================================
+P(2:0, 3:0, 4:0) = 0.008 < 0.01 => False
+P(2:0, 3:0, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:0, 4:1) = 0.008 < 0.01 => False
+P(2:0, 3:0, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:0, 4:2) = 0.0 < 0.01 => False
+P(2:0, 3:0, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:0, 4:3) = 0.0 < 0.01 => False
+P(2:0, 3:0, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:1, 4:0) = 0.0 < 0.01 => False
+P(2:0, 3:1, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:1, 4:1) = 0.0 < 0.01 => False
+P(2:0, 3:1, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:1, 4:2) = 0.0 < 0.01 => False
+P(2:0, 3:1, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:1, 4:3) = 0.0 < 0.01 => False
+P(2:0, 3:1, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:2, 4:0) = 0.0 < 0.01 => False
+P(2:0, 3:2, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:2, 4:1) = 0.8 > 0.01 => True
+LHS: MI(2:0, 3:2, 4:1) = 0.5582874071923905
+1/P(2:0, 3:2, 4:1) = 1.25
+o_i = 200.0
+e_i = 135.82156799999998
+X^2 = 30.325604354520678
+2N = 500.0
+X^2/2N = 0.06065120870904136
+E^ = 1.7591908376603294
+E' = 9.169925001442314
+E^/E' = 0.19184353605767013
+o/2 = 1.5
+RHS: (1/P(2:0, 3:2, 4:1)) * (X^2/2N)^(E^/E')^(o/2) = 0.987723115061882
+P(2:0, 3:2, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:2, 4:2) = 0.0 < 0.01 => False
+P(2:0, 3:2, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:0, 3:2, 4:3) = 0.008 < 0.01 => False
+P(2:0, 3:2, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:0, 4:0) = 0.0 < 0.01 => False
+P(2:1, 3:0, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:0, 4:1) = 0.0 < 0.01 => False
+P(2:1, 3:0, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:0, 4:2) = 0.16 > 0.01 => True
+LHS: MI(2:1, 3:0, 4:2) = 5.01270533204958
+1/P(2:1, 3:0, 4:2) = 6.25
+o_i = 40.0
+e_i = 1.23904
+X^2 = 1212.5613540495867
+2N = 500.0
+X^2/2N = 2.4251227080991735
+E^ = 1.7591908376603294
+E' = 9.169925001442314
+E^/E' = 0.19184353605767013
+o/2 = 1.5
+RHS: (1/P(2:1, 3:0, 4:2)) * (X^2/2N)^(E^/E')^(o/2) = 6.7329932450415315
+P(2:1, 3:0, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:0, 4:3) = 0.0 < 0.01 => False
+P(2:1, 3:0, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:1, 4:0) = 0.0 < 0.01 => False
+P(2:1, 3:1, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:1, 4:1) = 0.0 < 0.01 => False
+P(2:1, 3:1, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:1, 4:2) = 0.0 < 0.01 => False
+P(2:1, 3:1, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:1, 4:3) = 0.008 < 0.01 => False
+P(2:1, 3:1, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:2, 4:0) = 0.008 < 0.01 => False
+P(2:1, 3:2, 4:0) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:2, 4:1) = 0.0 < 0.01 => False
+P(2:1, 3:2, 4:1) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:2, 4:2) = 0.0 < 0.01 => False
+P(2:1, 3:2, 4:2) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+P(2:1, 3:2, 4:3) = 0.0 < 0.01 => False
+P(2:1, 3:2, 4:3) is NOT statistically significant association pattern. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Process finished with exit code 0
