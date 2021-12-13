@@ -7,13 +7,16 @@ File, FileNotFoundException, Scanner, Vector
 ## Problem Solving:
 This program is that in a given varaibles and a given orders (in this program has only 2 or 3 orders), determine the a given variable pattern with or possible values are statistically significant association pattern or not. The purpose of this is to find the associate between several items.
 
-## Design (including How to use this program):
+## Design and Explanation of Code (including How to use this program):
 First, it will read the input and return a table we need. Then the program will ask users which order they want, in this case, it only has 2nd or 3rd order. And then it requires users enter the columns they want to see. For 2nd order, need to answer 2 times; for 3rd order, need to answer 3 times. After that, the program will calculate the association between these columns and display whether they are in association mode.
 
 There are 2 main steps to calculate:
 1. Support Measure: include methods SupportMeasure3 and SupportMeasure2
 2. Level of dependency in terms of mutual information measure: include methods LevelDependency3 and LevelDependency2
-Methods Associate3 and Associate2 work for all possible value with their specific columns.
+Other main methods:
+Methods Associate3 and Associate2 work for all possible value with their specified columns.
+Methods IntersectProb3 and Count3 work for calculating Intersection Probability; similar with IntersectProb2 and Count2.
+Methods RowMatch3, RowMatch2, RowMatch1 work for finding the specified pattern in which rows and how many rows match and then return as Vector.
 
 
 ## Explanation of input file
