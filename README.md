@@ -10,7 +10,7 @@ This program is that in a given varaibles and a given orders (in this program ha
 ## Design:
 First, it will read the input and return a table we need. Then the program will ask users which order they want, in this case, it only has 2nd or 3rd order. And then it requires users enter the columns they want to see. For 2nd order, need to answer 2 times; for 3rd order, need to answer 3 times. After that, the program will calculate the association between these columns and display whether they are in association mode.
 
-## Explaination of input file
+## Explanation of input file
 In the input file, 
 1. first line is threshold, 
 2. second line is row and column number, 
