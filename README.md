@@ -20,7 +20,7 @@ Other main methods:
 - Methods RowMatch3, RowMatch2, RowMatch1 work for finding the specified pattern in which rows and how many rows match and then return as Vector.
 
 
-## Explanation of input file
+## Explanation of input file:
 In the input file, 
 1. first line is threshold, 
 2. second line is row and column number, 
