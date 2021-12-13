@@ -8,7 +8,7 @@ File, FileNotFoundException, Scanner, Vector
 This program is that in a given varaibles and a given orders (in this program has only 2 or 3 orders), determine the a given variable pattern with or possible values are statistically significant association pattern or not. The purpose of this is to find the associate between several items.
 
 ## Design and Explanation of Code (including How to use this program):
-First, it will read the input and return a table we need. Then the program will ask users which order they want, in this case, it only can be 2 or 3. And then it requires users enter the columns they want to see. For 2nd order, need to answer 2 times for 2 columns; for 3rd order, need to answer 3 times for 3 columns. After that, the program will calculate the association between these columns and display whether they are in association mode.
+First, it will read the input and return a table we need. Then the program will ask users which order they want, in this case, it only can be 2 or 3. Then it asks users to enter the column they want to view, but the selected number should be in the parentheses of the question. For 2nd order, need to answer 2 times for 2 columns; for 3rd order, need to answer 3 times for 3 columns. After that, the program will calculate the association between these columns and display whether they are in association mode.
 
 There are 2 main steps to calculate:
 1. Support Measure: include methods SupportMeasure3 and SupportMeasure2
